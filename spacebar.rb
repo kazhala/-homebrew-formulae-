@@ -11,10 +11,8 @@ class Spacebar < Formula
     (var/"log/spacebar").mkpath
     man.mkpath
 
-    if build.head?
-      ENV.O2
-      system "make", "install"
-    end
+    ENV.O2
+    system "make", "install"
 
     bin.install "#{buildpath}/bin/spacebar"
     (pkgshare/"examples").install "#{buildpath}/examples/spacebarrc"
