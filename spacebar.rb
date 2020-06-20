@@ -1,7 +1,7 @@
 class Spacebar < Formula
   desc "A stausbar for yabai tiling window manager."
   homepage "https://github.com/kazhala/spacebar"
-  url "https://github.com/kazhala/spacebar/releases/download/v0.5.0/spacebar-v0.5.0.tar.gz"
+  url "https://github.com/kazhala/spacebar/archive/v0.5.0.tar.gz"
   sha256 "1d05218e6b68d292f6a7c12245e6b2fed3bbe553"
   head "https://github.com/kazhala/spacebar.git"
 
