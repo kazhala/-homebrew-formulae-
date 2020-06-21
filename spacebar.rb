@@ -1,8 +1,8 @@
 class Spacebar < Formula
   desc "A stausbar for yabai tiling window manager."
   homepage "https://github.com/kazhala/spacebar"
-  url "https://github.com/kazhala/spacebar/archive/v0.5.0.tar.gz"
-  sha256 "7a0f8defb8f6cbdc2f54a88b7fe4b4ad2e13b04bfe16202e0760449641d100a1"
+  url "https://github.com/kazhala/spacebar/archive/v0.6.0.tar.gz"
+  sha256 "046e6b9b64d2e81f270123824666518c454dcedabcc63881eb70eac59b394964"
   head "https://github.com/kazhala/spacebar.git"
 
   depends_on :macos => :high_sierra
